@@ -2,9 +2,7 @@
   "name": "cjs-modules",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "build": "tsc -p ."
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
