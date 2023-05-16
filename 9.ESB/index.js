@@ -1,5 +1,5 @@
 import { sub } from "./math.js";
 
-console.log(get(foo2));
+console.log(sub(2, 3));
 
 export {}
