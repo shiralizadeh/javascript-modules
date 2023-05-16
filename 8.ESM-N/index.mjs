@@ -1,5 +1,6 @@
-import Sum from "./math.mjs";
+import { sum } from "./sum.mjs";
+import { sub } from "./sub.cjs";
 
-console.log(Sum(1, 2));
+console.log(sub(1, 2));
 
-export {}
+export {};

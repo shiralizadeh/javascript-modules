@@ -2,7 +2,9 @@
   "name": "esm-node-modules",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.mjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
