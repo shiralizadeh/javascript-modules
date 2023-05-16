@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-modules",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outdir=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.19"
+  }
+}
