@@ -1,16 +1,19 @@
 {
-  "name": "cjs-modules",
+  "name": "esm-modules",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsc": "^2.0.4"
+    "@types/lodash": "^4.14.194",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.194",
     "lodash": "^4.17.21"
   }
 }

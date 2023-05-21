@@ -1,13 +1,23 @@
+const _ = require("lodash");
+
 class TicTacToe {
+  board: number[][] = [];
+
+  size: number = 3;
+  movesCount: number = 0;
+
+  isInProgress: boolean = true;
+  currentPlayer: number = 1;
+
   constructor() {
     this.reset();
   }
 
-  isValidMove(row, column) {
+  isValidMove(row: number, column: number) {
     return this.board[row][column] == 0;
   }
 
-  makeMove(row, column) {
+  makeMove(row: number, column: number) {
     if (!this.isInProgress) {
       return "Ended";
     }
@@ -94,18 +104,12 @@ class TicTacToe {
   }
 
   reset() {
-    this.movesCount = 0;
-    this.size = 3;
-    this.currentPlayer = 1;
-    this.isInProgress = true;
-    this.board = [];
+    this.board = _.fill(Array(this.size), []);
 
-    for (let i = 0; i < this.size; i++) {
-      this.board[i] = [];
-
-      for (let j = 0; j < this.size; j++) {
-        this.board[i][j] = 0;
-      }
-    }
+    _.mapValues(this.board, () => _.fill(Array(this.size), 0));
   }
 }
+
+module.exports = {
+  TicTacToe,
+};
