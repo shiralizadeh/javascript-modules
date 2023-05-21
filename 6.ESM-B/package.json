@@ -2,9 +2,15 @@
   "name": "esm-browser-modules",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
-
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "typescript": "^5.0.4"
+  }
 }
