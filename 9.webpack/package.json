@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/underscore": "^1.11.4",
     "@webpack-cli/generators": "^3.0.4",
-    "webpack-cli": "^5.1.1"
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.6"
   }
 }

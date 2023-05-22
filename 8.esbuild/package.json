@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "esbuild index.js --bundle --outdir=dist"
+    "build": "esbuild src/tic-tac-toe.ts --bundle --minify --outdir=dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.194",
     "esbuild": "^0.17.19"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
