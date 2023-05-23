@@ -1,4 +1,6 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
   entry: "./src/tic-tac-toe.ts",
@@ -12,6 +14,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./public/index.html"),
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+  ],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].bundle.js",
@@ -22,5 +30,6 @@ module.exports = {
     },
     compress: true,
     port: 9000,
+    hot: true,
   },
 };

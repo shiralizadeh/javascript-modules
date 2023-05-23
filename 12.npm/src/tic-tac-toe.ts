@@ -107,9 +107,5 @@ export class TicTacToe {
     this.board = _.fill(Array(this.size), []);
 
     _.mapValues(this.board, () => _.fill(Array(this.size), 0));
-
-    import(/* webpackPrefetch: true */ "underscore").then(() => {
-      console.log("here");
-    });
   }
 }
