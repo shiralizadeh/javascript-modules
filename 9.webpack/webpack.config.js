@@ -4,7 +4,10 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: "./src/tic-tac-toe.ts",
-  mode: "production",
+  mode: "development",
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
   module: {
     rules: [
       {
@@ -18,7 +21,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./public/index.html"),
     }),
-    new webpack.HotModuleReplacementPlugin(),
   ],
   output: {
     path: path.resolve(__dirname, "dist"),

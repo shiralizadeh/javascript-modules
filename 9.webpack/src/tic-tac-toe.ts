@@ -1,4 +1,5 @@
 import _ from "lodash";
+import { foo } from "./foo";
 
 export class TicTacToe {
   board: number[][] = [];
@@ -108,8 +109,21 @@ export class TicTacToe {
 
     _.mapValues(this.board, () => _.fill(Array(this.size), 0));
 
-    import(/* webpackPrefetch: true */ "underscore").then(() => {
-      console.log("here");
+    import(/* webpackPrefetch: true */ "underscore").then((_) => {
+      console.log(_);
     });
   }
+}
+
+let fooValue = foo();
+
+setInterval(() => {
+  console.log("call", fooValue);
+}, 1000);
+
+if (module.hot) {
+  module.hot.accept("./foo", () => {
+    console.log("accepted 1");
+    fooValue = foo();
+  });
 }
