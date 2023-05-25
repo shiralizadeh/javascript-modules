@@ -1,11 +1,11 @@
 {
-  "name": "@mohamad/tic-tac-toe",
-  "version": "0.0.1",
+  "name": "esbuild-modules",
+  "version": "1.0.0",
   "description": "",
-  "entryPoint": "./dist/tic-tac-toe.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "dev": "tsc --watch",
+    "build": "tsc --sourceMap --outDir dist",
+    "dts": "tsc --declaration --noEmitJs"
   },
   "keywords": [],
   "author": "",

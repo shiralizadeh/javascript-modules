@@ -1,18 +1,19 @@
 {
-  "name": "@mohamad/tic-tac-toe",
-  "version": "0.0.1",
+  "name": "swc-modules",
+  "version": "1.0.0",
   "description": "",
-  "entryPoint": "./dist/tic-tac-toe.js",
+  "source": "src/tic-tac-toe.ts",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/lodash": "^4.14.194",
-    "typescript": "^5.0.4"
+    "parcel": "^2.8.3"
   },
   "dependencies": {
     "lodash": "^4.17.21"

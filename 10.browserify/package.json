@@ -1,18 +1,16 @@
 {
-  "name": "@mohamad/tic-tac-toe",
-  "version": "0.0.1",
+  "name": "esbuild-modules",
+  "version": "1.0.0",
   "description": "",
-  "entryPoint": "./dist/tic-tac-toe.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "browserify src/tic-tac-toe.ts --sourceType module -o dist/bundle.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/lodash": "^4.14.194",
-    "typescript": "^5.0.4"
+    "browserify": "^17.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
