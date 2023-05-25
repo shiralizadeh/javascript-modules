@@ -1,8 +1,7 @@
 {
-  "name": "mohamad-tic-tac-toe",
-  "version": "0.0.4",
+  "name": "esm-modules",
+  "version": "1.0.0",
   "description": "",
-  "main": "src/tic-tac-toe.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch"
@@ -15,6 +14,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "lodash": "^4.0.0"
+    "lodash": "^4.17.21",
+    "mohamad-tic-tac-toe": "^0.0.4"
   }
 }
