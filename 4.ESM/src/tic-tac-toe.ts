@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 export class TicTacToe {
   board: number[][] = [];
 
@@ -102,10 +104,8 @@ export class TicTacToe {
   }
 
   reset() {
-    import('lodash').then(({ default: _ }) => {
-      this.board = _.fill(Array(this.size), []);
+    this.board = _.fill(Array(this.size), []);
 
-      _.mapValues(this.board, () => _.fill(Array(this.size), 0));
-    });
+    _.mapValues(this.board, () => _.fill(Array(this.size), 0));
   }
 }

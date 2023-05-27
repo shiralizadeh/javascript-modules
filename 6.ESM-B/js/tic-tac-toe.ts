@@ -1,7 +1,3 @@
-import { LoDashStatic } from "lodash";
-
-declare const _: LoDashStatic;
-
 export class TicTacToe {
   board: number[][] = [];
 
@@ -12,7 +8,7 @@ export class TicTacToe {
   currentPlayer: number = 1;
 
   constructor() {
-    this.reset();
+    // this.reset();
   }
 
   isValidMove(row: number, column: number) {
@@ -106,8 +102,11 @@ export class TicTacToe {
   }
 
   reset() {
-    this.board = _.fill(Array(this.size), []);
+    import('lodash').then((_) => {
+      this.board = _.fill(Array(this.size), []);
 
-    _.mapValues(this.board, () => _.fill(Array(this.size), 0));
+      _.mapValues(this.board, () => _.fill(Array(this.size), 0));
+    })
+    
   }
 }

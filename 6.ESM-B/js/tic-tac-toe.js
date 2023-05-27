@@ -5,7 +5,7 @@ export class TicTacToe {
         this.movesCount = 0;
         this.isInProgress = true;
         this.currentPlayer = 1;
-        this.reset();
+        // this.reset();
     }
     isValidMove(row, column) {
         return this.board[row][column] == 0;
@@ -84,7 +84,9 @@ export class TicTacToe {
         return "Successful";
     }
     reset() {
-        this.board = _.fill(Array(this.size), []);
-        _.mapValues(this.board, () => _.fill(Array(this.size), 0));
+        import('lodash').then((_) => {
+            this.board = _.fill(Array(this.size), []);
+            _.mapValues(this.board, () => _.fill(Array(this.size), 0));
+        });
     }
 }

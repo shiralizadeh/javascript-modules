@@ -1,6 +1,6 @@
 {
-  "name": "mohamad-tic-tac-toe",
-  "version": "0.0.4",
+  "name": "mohamad1-tic-tac-toe",
+  "version": "0.0.5",
   "description": "",
   "main": "src/tic-tac-toe.js",
   "scripts": {

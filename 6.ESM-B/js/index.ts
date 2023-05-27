@@ -1,3 +1,7 @@
 import { TicTacToe } from "tic-tac-toe";
 
-console.log(TicTacToe);
+const tic = new TicTacToe();
+
+setTimeout(() => {
+    tic.reset();
+}, 2000);

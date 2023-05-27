@@ -1,4 +1,7 @@
 const _ = require("lodash");
+const bar = require("./foo");
+
+console.log(bar);
 
 class TicTacToe {
   board: number[][] = [];
@@ -110,6 +113,6 @@ class TicTacToe {
   }
 }
 
-module.exports = {
+exports = {
   TicTacToe,
 };

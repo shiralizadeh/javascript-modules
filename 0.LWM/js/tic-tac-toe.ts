@@ -1,19 +1,17 @@
-import _ from "lodash";
+class TicTacToe {
+  board: number[][];
 
-export class TicTacToe {
-  board: number[][] = [];
-
-  size: number = 3;
-  movesCount: number = 0;
-
-  isInProgress: boolean = true;
-  currentPlayer: number = 1;
+  isInProgress: boolean;
+  movesCount: number;
+  currentPlayer: number;
+  size: number;
 
   constructor() {
     this.reset();
   }
 
   isValidMove(row: number, column: number) {
+    console.log(this.board);
     return this.board[row][column] == 0;
   }
 
@@ -104,13 +102,13 @@ export class TicTacToe {
   }
 
   reset() {
+    this.movesCount = 0;
+    this.size = 3;
+    this.currentPlayer = 1;
+    this.isInProgress = true;
+
     this.board = _.fill(Array(this.size), []);
 
-    _.mapValues(this.board, () => _.fill(Array(this.size), 0));
+    this.board = _.mapValues(this.board, () => _.fill(Array(this.size), 0));
   }
 }
-
-
-const tic = new TicTacToe();
-
-console.log(tic);

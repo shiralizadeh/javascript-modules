@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { foo } from "./foo";
+import { foo } from './foo';
 
 export class TicTacToe {
   board: number[][] = [];
@@ -108,10 +108,6 @@ export class TicTacToe {
     this.board = _.fill(Array(this.size), []);
 
     _.mapValues(this.board, () => _.fill(Array(this.size), 0));
-
-    import(/* webpackPrefetch: true */ "underscore").then((_) => {
-      console.log(_);
-    });
   }
 }
 
