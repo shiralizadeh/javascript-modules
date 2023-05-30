@@ -1,12 +1,3 @@
-# 1. CommonJS Modules (CJS)
+# 1. Asynchronous Module Definition (AMD)
 
-Experince CommonJS Modules using typescript
-
-## Steps
-0. Config typescript to use `AMD`
-0. Config `build` command
-
-## Commands
-- install `npm install`
-- build `npm run build` 
-- watch `npm run watch`
+XXX

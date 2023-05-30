@@ -1,4 +1,4 @@
-# 0. Life Without modules (LWM)
+# Life Without modules (LWM)
 
 Use provided UI, to implement Tic Tac Toe game logic.
 
