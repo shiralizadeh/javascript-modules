@@ -1,12 +1,18 @@
-# 4. ES Modules (ESM)
+# tree-shaking
 
-Experince CommonJS Modules using typescript
+## TLDR
 
-## Steps
-0. Config typescript to use `UMD`
-0. Config `build` command
+## Pros
 
-## Commands
-- install `npm install`
-- build `npm run build` 
-- watch `npm run watch`
+## Cons
+
+## How to run
+- Clone the repository
+- Open a terminal in `1.CJS` folder and run:
+```
+$ npm install
+$ npm run start
+```
+- Open `localhost:8080` in your bowser.
+
+## Notes

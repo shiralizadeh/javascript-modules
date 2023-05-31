@@ -1,4 +1,4 @@
-# Publish an NPM package
+# SWC
 
 ## TLDR
 

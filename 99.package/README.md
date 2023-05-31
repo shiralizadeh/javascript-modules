@@ -1,4 +1,4 @@
-# Publish an NPM package
+# Pratice creating a NPM package
 
 ## TLDR
 
