@@ -4,15 +4,26 @@
 
 ## Pros
 
+- Native Module System in Node.js
+
 ## Cons
 
+- Fashion way of the modularity
+
 ## How to run
+
 - Clone the repository
-- Open a terminal in `1.CJS` folder and run:
-```
-$ npm install
-$ npm run start
-```
-- Open `localhost:8080` in your bowser.
+- Open a terminal in this (`1.CJS`) folder and run:
+  ```
+  $ npm install
+  ```
+- To compile `.ts` files you can run:
+  ```
+  $ npm run build
+  ```
+- To watch `.ts` files you can run:
+  ```
+  $ npm run watch
+  ```
 
 ## Notes
