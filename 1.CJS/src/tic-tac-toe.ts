@@ -1,5 +1,5 @@
 const _ = require("lodash");
-const bar = require("./foo");
+const bar = require("./constants");
 
 console.log(bar);
 
