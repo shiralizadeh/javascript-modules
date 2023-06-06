@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "serve": "cd ./src;http-server"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.194",
     "@types/node": "^20.2.1",
+    "http-server": "^14.1.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {

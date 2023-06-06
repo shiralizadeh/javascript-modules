@@ -1,3 +1,3 @@
-define(["tic-tac-toe"], (TicTacToe: any) => {
-  console.log(TicTacToe);
+define(["guess-number"], (guessNumber: any) => {
+  console.log(guessNumber);
 });
