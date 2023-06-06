@@ -7,14 +7,14 @@ class GuessNumber {
     this.attempts++;
 
     if (guess === this.secretNumber) {
-      log(
+      alert(
         `Congratulations! You guessed the correct number in ${this.attempts} attempts.`
       );
       this.reset();
     } else if (guess < this.secretNumber) {
-      log("Try a higher number.");
+      alert("Try a higher number.");
     } else {
-      log("Try a lower number.");
+      alert("Try a lower number.");
     }
   }
 

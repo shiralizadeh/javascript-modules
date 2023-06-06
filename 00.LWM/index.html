@@ -4,25 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./css/tic-tac-toe.css" />
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="./css/guess-number.css" />
   </head>
   <body>
-    <div class="tic-tac-toe">
-      <div class="item" data-row="0" data-column="0"></div>
-      <div class="item" data-row="0" data-column="1"></div>
-      <div class="item" data-row="0" data-column="2"></div>
-
-      <div class="item" data-row="1" data-column="0"></div>
-      <div class="item" data-row="1" data-column="1"></div>
-      <div class="item" data-row="1" data-column="2"></div>
-
-      <div class="item" data-row="2" data-column="0"></div>
-      <div class="item" data-row="2" data-column="1"></div>
-      <div class="item" data-row="2" data-column="2"></div>
+    <div class="guess-number">
+      <input type="text" />
+      <input type="button" value="Check" />
     </div>
+    <!-- Order of js files matters -->
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-    <script src="./js/tic-tac-toe.js"></script>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/guess-number.js"></script>
     <script src="./js/page.js"></script>
   </body>
 </html>
