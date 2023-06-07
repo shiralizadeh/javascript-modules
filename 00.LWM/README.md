@@ -32,6 +32,13 @@ $ npm run start
 
 - Open `localhost:8080` in your bowser.
 
+## Used Packages
+
+### devDependencies
+
+- `http-server`: Runs http server on port `8080`
+
 ## Notes
 
 - Later in the next step in repository, you will see typescript version of `guess-number.js` and `utilities.js`.
+- `package.json` is there since we wanted to use `http-server`

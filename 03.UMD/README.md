@@ -15,4 +15,15 @@ $ npm run start
 ```
 - Open `localhost:8080` in your bowser.
 
+## Used Packages
+
+###
+
+- `lodash`: lodash library to use `random` utility.
+
+### devDependencies
+
+- `@types/lodash`: Definitely typed for lodash library
+- `typescript`: Compiles `.ts` to `.js`
+
 ## Notes

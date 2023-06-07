@@ -47,6 +47,18 @@ module.exports = {
   $ npm run watch
   ```
 
+## Used Packages
+
+###
+
+- `lodash`: lodash library to use `random` utility.
+
+### devDependencies
+
+- `@types/node`: Definitely typed for node.js
+- `@types/lodash`: Definitely typed for lodash library
+- `typescript`: Compiles `.ts` to `.js`
+
 ## Notes
 
 - In order to use CommonJS in Typescript we need DefinitelyTyped (`.d.ts`) files. We installed `@types/node` package.
