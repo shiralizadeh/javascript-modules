@@ -1,6 +1,6 @@
 # Publish an NPM package
 
-## TLDR
+## Description
 
 ## Pros
 

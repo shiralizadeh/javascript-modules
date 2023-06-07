@@ -1,6 +1,6 @@
 # Universal Module Definition (UMD)
 
-## TLDR
+## Description
 
 ## Pros
 

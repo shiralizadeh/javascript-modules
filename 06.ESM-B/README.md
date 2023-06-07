@@ -1,6 +1,6 @@
 # ECMAScript modules in Browsers (ESM-B)
 
-## TLDR
+## Description
 
 ## Pros
 

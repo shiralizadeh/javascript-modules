@@ -1,6 +1,6 @@
 # browserify
 
-## TLDR
+## Description
 
 ## Pros
 

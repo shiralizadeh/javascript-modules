@@ -1,6 +1,6 @@
 # ECMAScript modules in Node.js (ESM-N)
 
-## TLDR
+## Description
 
 ## Pros
 

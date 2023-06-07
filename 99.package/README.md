@@ -1,6 +1,6 @@
 # Pratice creating a NPM package
 
-## TLDR
+## Description
 
 ## Pros
 

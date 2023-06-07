@@ -1,6 +1,6 @@
 # esbuild
 
-## TLDR
+## Description
 
 ## Pros
 

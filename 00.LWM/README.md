@@ -1,6 +1,6 @@
 # Chapter 0 - Life Without modules
 
-## TLDR
+## Description
 
 JavaScript modules allow you to break up your code into separate files.
 

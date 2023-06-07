@@ -1,6 +1,6 @@
 # SWC
 
-## TLDR
+## Description
 
 ## Pros
 

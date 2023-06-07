@@ -1,6 +1,6 @@
 # ECMAScript modules (ESM)
 
-## TLDR
+## Description
 
 ## Pros
 

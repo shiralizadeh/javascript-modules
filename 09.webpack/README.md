@@ -1,6 +1,6 @@
 # webpack
 
-## TLDR
+## Description
 
 ## Pros
 

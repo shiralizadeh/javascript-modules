@@ -1,6 +1,6 @@
 # tree-shaking
 
-## TLDR
+## Description
 
 ## Pros
 

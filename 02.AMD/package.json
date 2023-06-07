@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "cd ./src;http-server",
     "build": "tsc",
-    "watch": "tsc --watch",
-    "serve": "cd ./src;http-server"
+    "watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",
