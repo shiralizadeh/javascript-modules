@@ -1,6 +1,6 @@
 # Javascript Modules Starter Kit
 
-Starter Kit to experince javascript modules, compilers, and bundlers.
+Starter Kit to experience javascript modules, compilers, and bundlers.
 
 ## Contents
 
