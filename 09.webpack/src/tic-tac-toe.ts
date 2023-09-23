@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { foo } from './foo';
+import { foo } from "./foo";
 
 export class TicTacToe {
   board: number[][] = [];
@@ -114,12 +114,5 @@ export class TicTacToe {
 let fooValue = foo();
 
 setInterval(() => {
-  console.log("call", fooValue);
+  console.log("foo called", fooValue);
 }, 1000);
-
-if (module.hot) {
-  module.hot.accept("./foo", () => {
-    console.log("accepted 1");
-    fooValue = foo();
-  });
-}
